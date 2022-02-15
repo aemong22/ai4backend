@@ -38,6 +38,26 @@ kname.pop()
 # 문자열 메서드
 let first = "가나다라마바사"
 
-first.charAt(2)
+first.charAt(3)
 : (괄호안 숫자) 위치에 있는 문자열 하나 반환
-: 다
+: 라
+
+
+# 데이터 import /export
+ES6 : import / export 
+:package.json에서 "type": "module" 추가해야한다.
+
+Node.js : requre/ exports
+: 노드는 객체로 내보낸다. => {  }
+:package.json에서 "type": "module" 삭제해야한다.
+
+toString() 
+:객체가 가지고 있는 정보나 값들을 문자열로 만들어 리턴
+
+slice(0,10)
+: 문자열 자르기
+
+
+# 노드의 강점
+node의 강점 : 비동기식. asyncronous
+노드는 기본적으로 싱글 스레드다.
