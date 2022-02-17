@@ -10,9 +10,10 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.2",
-    "nodemon": "^2.0.15"
+    "fug": "^1.0.0",
+    "nodemon": "^2.0.15",
+    "pug": "^3.0.2"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aemong22/ai4backend.git"

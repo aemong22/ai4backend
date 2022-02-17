@@ -1,9 +1,9 @@
 const express = require('express')
-
+const path = require('path')
 const router = express.Router()
 
 router.get('/',(req,res) =>{
-    res.send('나의 서비스 첫 페이지 입니다.')
+    res.render('index')
 })
 
 module.exports = router
